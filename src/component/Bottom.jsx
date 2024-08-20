@@ -7,8 +7,11 @@ import { Insta } from '../assets';
 import { Youtube } from '../assets';
 import { Twitter } from '../assets';
 import { Line } from '../assets';
+import { Email } from '../assets';
+import { Phone } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import "./style.css";
+
 
 
  
@@ -51,6 +54,14 @@ const Bottom = () => {
 
               <div className="col-sm-12 col-md-12 col-lg-6 mt-4">
                 <h5 className="text-light" style={{ marginLeft: '300px'}}>Signup For The Latest News</h5>
+                <form className="form-inline mt-3">
+                  <input className='form-control w-50 bg-transparent' style={{ marginLeft: '300px'}} type="text" placeholder='Enter Email' />
+                  <i className='fas fa-arrow-right text-light'></i>
+                </form>
+                <div  className='mt-5'>
+                  <Link to="/" className="text-light" style={{ marginLeft: '300px',}}> bycafrica@gmail.com</Link>
+                  
+                </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-12 text-center">

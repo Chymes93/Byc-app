@@ -35,7 +35,7 @@ const Navbar = () => {
               </ul>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item mr-3">
-                  <Link className="nav-link" href="#">About Us<span className="sr-only">(current)</span></Link>
+                  <Link className="nav-link" to="/about">About Us<span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item mr-3">
                   <Link className="nav-link" href="#">Contact<span className="sr-only">(current)</span></Link>
