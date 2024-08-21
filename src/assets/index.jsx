@@ -25,6 +25,7 @@ import Vector from "./Vector.png";
 import Visa from "./visa.png";
 import Youtube from "./youtube Icon.png";
 import Line from "./line.png";
+import Rectangle from "./Rectangle.png";
 
 
 export {
@@ -55,4 +56,5 @@ export {
     Visa,
     Youtube,
     Line,
+    Rectangle,
 }

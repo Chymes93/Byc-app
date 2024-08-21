@@ -3,6 +3,12 @@ import "./style.css";
 import { Boxers } from '../assets';
 import { Link } from 'react-router-dom';
 import { Ribbon } from '../assets';
+import { LiaAngleRightSolid } from "react-icons/lia";
+import { Asian } from '../assets';
+import { Line } from '../assets';
+import { IoStar } from "react-icons/io5";
+import { IoStarHalf } from "react-icons/io5";
+
 
 
 
@@ -169,6 +175,109 @@ const About = () => {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-1"></div>
 
+        </div>
+
+        <div className="row mt-5">
+            <div className="col-sm-12 col-md-12 col-lg-1"></div>
+            <div className="col-sm-12 col-md-12 col-lg-10" style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px, rgba(149, 157, 165, 0.2) 0px 8px 24px', width: 'max', height: '530px', border: '1px solid', borderColor: 'rgba(241, 238, 238, 1)', borderRadius: '8px'}}>
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className='cardHeading d-flex justify-content-between'>
+                            <div>
+                                <h6 className=' font-weight-bold' style={{ fontSize: '20px', marginTop: '40px'}}>Recently Viewed</h6>
+                            </div>
+                            <div className='d-flex'>
+                                <Link className='nav-link font-weight-bold' style={{ marginTop: '26px'}} to="/see all"><span className='' style={{ color: 'rgba(189, 58, 58, 1)', fontSize: '18px', marginTop: ''}}>See all</span></Link>
+                                <LiaAngleRightSolid style={{ color: 'rgba(189, 58, 58, 1)', marginTop: '38px'}} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <img src={ Line } alt="" style={{ color: '#212121'}} />
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-2">
+                        <div>
+                           <img src={ Asian } alt="" style={{width: '217px'}} /> 
+                           <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p>₦1,900.00</p>
+                           <div className="rating text-warning font-size-12">
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStarHalf /></i></span>
+                                <span className="ml-2">4.05</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-2" style={{ marginLeft: '30px'}}>
+                        <div>
+                           <img src={ Asian } alt="" style={{width: '217px'}} /> 
+                           <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p>₦1,900.00</p>
+                           <div className="rating text-warning font-size-12">
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStarHalf /></i></span>
+                                <span className="ml-2">4.05</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-2" style={{ marginLeft: '30px'}}>
+                        <div>
+                           <img src={ Asian } alt="" style={{width: '217px'}} /> 
+                           <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p>₦1,900.00</p>
+                           <div className="rating text-warning font-size-12">
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStarHalf /></i></span>
+                                <span className="ml-2">4.05</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-2" style={{ marginLeft: '30px'}}>
+                        <div>
+                           <img src={ Asian } alt="" style={{width: '217px'}} /> 
+                           <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p>₦1,900.00</p>
+                           <div className="rating text-warning font-size-12">
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStarHalf /></i></span>
+                                <span className="ml-2">4.05</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-2" style={{ marginLeft: '30px'}}>
+                        <div>
+                           <img src={ Asian } alt="" style={{width: '217px'}} /> 
+                           <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p>₦1,900.00</p>
+                           <div className="rating text-warning font-size-12">
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStar /></i></span>
+                                <span><i className=""><IoStarHalf /></i></span>
+                                <span className="ml-2">4.05</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
       
     </React.Fragment>
