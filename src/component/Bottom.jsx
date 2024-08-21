@@ -7,8 +7,9 @@ import { Insta } from '../assets';
 import { Youtube } from '../assets';
 import { Twitter } from '../assets';
 import { Line } from '../assets';
-import { Email } from '../assets';
-import { Phone } from '@mui/icons-material';
+import { FiPhone } from "react-icons/fi";
+import { MdOutlineEmail } from "react-icons/md";
+
 import { Link } from 'react-router-dom';
 import "./style.css";
 
@@ -58,9 +59,13 @@ const Bottom = () => {
                   <input className='form-control w-50 bg-transparent' style={{ marginLeft: '300px'}} type="text" placeholder='Enter Email' />
                   <i className='fas fa-arrow-right text-light'></i>
                 </form>
-                <div  className='mt-5'>
-                  <Link to="/" className="text-light" style={{ marginLeft: '300px',}}> bycafrica@gmail.com</Link>
-                  
+                <div  className='mt-5 d-flex' style={{ marginLeft: '300px', gap: '5px'}}>
+                  <div className='text-light'><MdOutlineEmail /></div>
+                  <Link to="/" className="text-light" style={{ marginLeft: 'px',}}>bycafrica@gmail.com</Link>
+                </div>
+                <div  className='d-flex' style={{ marginLeft: '300px', gap: '5px'}}>
+                  <div className='text-light'><FiPhone /></div>
+                  <Link to="/" className="text-light" style={{ marginLeft: 'px',}}>+2348101375376;</Link><span className='text-light '>+2349053403403 </span>
                 </div>
               </div>
 
