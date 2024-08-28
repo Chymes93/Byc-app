@@ -9,7 +9,6 @@ import { Twitter } from '../assets';
 import { Line } from '../assets';
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-
 import { Link } from 'react-router-dom';
 import "./style.css";
 

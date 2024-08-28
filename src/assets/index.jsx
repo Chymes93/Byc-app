@@ -24,8 +24,21 @@ import Twitter from "./twitter Icon.png";
 import Vector from "./Vector.png";
 import Visa from "./visa.png";
 import Youtube from "./youtube Icon.png";
-import Line from "./line.png";
-import Rectangle from "./Rectangle.png";
+import Active from "./Active.png";
+import Menu from "./Menu.jpg";
+import Divide from "./Divide.png";
+import Blue from "./Blue.png"
+import Lux from "./Lux.png";
+import Set from "./Set.png";
+import Line from "./Line.png";
+
+
+
+
+
+
+
+
 
 
 export {
@@ -55,6 +68,12 @@ export {
     Vector,
     Visa,
     Youtube,
+    Set,
+    Lux,
+    Active,
+    Menu,
+    Divide,
+    Blue,
     Line,
-    Rectangle,
+ 
 }
