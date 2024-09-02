@@ -2,11 +2,11 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Bottom from './component/Bottom';
-import Blog from './component/Blog';
 import About from './component/About';
 import ContactUs from './component/ContactUs';
 import Camsole from './component/Camsole';
 import Boxers from './component/Boxers';
+import Blog from './component/Blog';
 
 
 

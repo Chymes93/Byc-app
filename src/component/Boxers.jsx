@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css";
+import TestBoxers from './TestBoxers';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GrFavorite } from "react-icons/gr";
 import { Active } from '../assets';
@@ -133,7 +134,11 @@ const Boxers = () => {
               </div>
             </div>
           </div>
+          <div className="row">
+            <TestBoxers />
+          </div>
         </div>
+        
         <div className="col-sm-12 col-md-12 col-lg-1"></div>
       </div>
       

@@ -37,9 +37,9 @@ const About = () => {
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6">
-                       <div className='' style={{ marginTop: '120px'}}>
-                            <h2 className='font-weight-bolder ml-5'>ABOUT BYC AFRICA</h2>
-                            <p className='mt-3 ml-5' style={{ fontSize: '28px'}}>We are the sole distributor of BYC products in <br /> Africa. we import BYC products from Korea <br />
+                       <div className='' style={{ marginTop: '70px'}}>
+                            <h2 className='font-weight-bolder ml-4'>ABOUT BYC AFRICA</h2>
+                            <p className='mt-3 ml-4' style={{ fontSize: '28px'}}>We are the sole distributor of BYC products in <br /> Africa. we import BYC products from Korea <br />
                                 and distribute them to African countries <br /> through Onanik Holdings Limited.
                             </p>
                        </div>

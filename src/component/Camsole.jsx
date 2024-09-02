@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./style.css";
 import { Asian } from '../assets';
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -11,6 +11,7 @@ import { Divide } from '../assets';
 import { IoStar } from "react-icons/io5";
 import { IoStarHalf } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+
 
 
 

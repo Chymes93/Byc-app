@@ -53,7 +53,7 @@ const Bottom = () => {
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-6 mt-4">
-                <h5 className="text-light" style={{ marginLeft: '300px'}}>Signup For The Latest News</h5>
+                <h5 className="text-light latest-news" style={{ marginLeft: '300px'}}>Signup For The Latest News</h5>
                 <form className="form-inline mt-3">
                   <input className='form-control w-50 bg-transparent' style={{ marginLeft: '300px'}} type="text" placeholder='Enter Email' />
                   <i className='fas fa-arrow-right text-light'></i>
@@ -64,7 +64,7 @@ const Bottom = () => {
                 </div>
                 <div  className='d-flex' style={{ marginLeft: '300px', gap: '5px'}}>
                   <div className='text-light'><FiPhone /></div>
-                  <Link to="/" className="text-light" style={{ marginLeft: 'px',}}>+2348101375376;</Link><span className='text-light '>+2349053403403 </span>
+                  <Link to="/" className="text-light" style={{ marginLeft: 'px',}}>+2348101375376;<span className='text-light '>+2349053403403 </span></Link>
                 </div>
               </div>
 

@@ -108,7 +108,7 @@ const ContactUs = () => {
                                 <label for="message" className="form-label">Notes</label>
                                 <textarea style={{ borderColor: 'rgba(189, 58, 58, 1)', borderRadius: '10px'}} className="form-control" id="message" rows="5" placeholder=""></textarea>
                             </div>
-                            <button type="submit" className="myBtn p-2 mb-5">Submit</button>
+                            <button type="submit" className="myBtn p-2 mb-5 w-100">Submit</button>
                             
                         </form>
                     </div>
@@ -118,7 +118,7 @@ const ContactUs = () => {
 
         </div>
 
-        <div className="row mt-5 mb-5">8
+        <div className="row mt-5 mb-5">
             <div className="col-sm-12 col-md-12 col-lg-1"></div>
             <div className="col-sm-12 col-md-12 col-lg-10" style={{ width: 'max', border: '1px solid', borderColor: 'rgba(241, 238, 238, 1)', borderRadius: '8px'}}>
                 <div className="row mb-5">
