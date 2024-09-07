@@ -7,6 +7,9 @@ import ContactUs from './component/ContactUs';
 import Camsole from './component/Camsole';
 import Boxers from './component/Boxers';
 import Blog from './component/Blog';
+import Macbook from './component/Macbook';
+import Check from './component/Check';
+import Account from './component/Account';
 
 
 
@@ -16,7 +19,8 @@ const Display = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-        <Route index element={<Blog />} />
+        <Route index element={<Macbook />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/camsole" element={<Camsole />} />

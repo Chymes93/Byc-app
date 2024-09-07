@@ -98,3 +98,191 @@
   
 }
 
+fieldset {
+  margin: 0;
+  padding: 20px;
+}
+
+.address {
+  font-size: 14px;
+}
+
+.office {
+  font-size: 14px;
+}
+
+.location {
+  font-size: 20px;
+}
+
+.phone {
+  font-size: 20px;
+}
+
+.email {
+  font-size: 20px;
+}
+
+.product {
+  font-size: 10px;
+  margin-top: 18px;
+}
+
+.products {
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+
+
+.blog-btn {
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: bolder;
+  width: 118px;
+}
+
+/* .row {
+  margin: 0 !important;
+} */
+
+.body {
+  overflow-x: hidden !important;
+}
+
+.twtw {
+  text-align: center !important;
+}
+
+.threeimages {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.ccc {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.two-images {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.7rem;
+
+}
+
+.images-3 {
+  display: flex;
+}
+
+.btn-last {
+  padding: 9px 90px;
+  margin-bottom:10rem;
+}
+
+.btn-log {
+  padding: 9px 160px;
+  margin-bottom: 0.7rem; 
+}
+
+.mother {
+  /* box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  
+  margin-bottom: 4rem;
+  padding: 90px 150 ;
+}
+
+.btn-main {
+  /* box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;  */
+  /* border: 1px solid #B0B0B0; */
+  padding: 7px 9px;
+  margin-bottom: 1.2rem;
+
+}
+
+.jumbotron {
+  background: #fff !important;
+  border: 1px solid #c7c1c1 !important;
+}
+
+
+/* this is check component */
+
+.btn-new {
+  border-radius: 6px;
+  padding: 5px 40px;
+  border: none;
+  background-color: rgb(163, 39, 39);
+  color: #fff;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 99.4%;
+}
+
+.products-cart {
+  background-color: white;
+  height: 1600px;
+  width: 1252x;
+  border: 2px solid lightgray;
+  margin-left: 15px;
+}
+
+.line {
+  border-bottom: 2px solid lightgray;
+  width: 1150px;
+}
+
+.bran {
+  height: 30px;
+  width: 80px;
+  margin-left: 5px;
+}
+
+.bra {
+  width: 10px;
+  height: 10px;
+  margin-right: 150px;
+  margin-top: -5px;
+}
+
+.cic {
+  font-size: 10px;
+  margin-top: -20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.apples {
+  width: 10px;
+  height: 10px;
+  margin-right: 150px;
+  margin-top: -5px;
+}
+
+.brann {
+  width: 70px;
+  height: 30px;
+}
+
+.pen {
+  font-size: 10px;
+  margin-top: -20px;
+  color: brand;
+}
+
+.mode {
+  background-color: maroon;
+}
+
+
+
+
+
+

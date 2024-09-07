@@ -32,14 +32,14 @@ const ContactUs = () => {
             <div className="col-sm-12 col-md-12 col-lg-10">
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                    <div className="w-100 ml-3">
+                        <div className="w-100 ml-3">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.9875973752974!2d7.374394874741669!3d5.
                                 105698294871295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042993424021e8f%3A0x85c5b2e182ef299e!2s175%20
                                 Cameroon%20Rd%2C%20Aba%2C%20450002%2C%20Abia!5e0!3m2!1sen!2sng!4v1723028789871!5m2!1sen!2sng
                                 "width="1200px" height="450px"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" 
                                 title='Responsive Google Map'>
                             </iframe>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const ContactUs = () => {
                                 <img src={ Address } alt="" />
                             </div>
                             <div className='mt-3 ml-3'>
-                                <h6><span className='font-weight-bolder'>ADDRESS</span> <br /><span className='font-weight-normal'>( Head Office )</span> <br /><span className='font-weight-normal'>175 Cameroun Road Aba, Abia State.</span></h6>
+                                <h6><span className='location font-weight-bolder'>ADDRESS</span> <br /><span className='office font-weight-normal'>( Head Office )</span> <br /><span className='address font-weight-normal'>175 Cameroun Road Aba, Abia State.</span></h6>
                             </div>
                         </div>
                         
@@ -67,7 +67,7 @@ const ContactUs = () => {
                                 <img src={ Mobile } alt="" />
                             </div>
                             <div className='mt-4 ml-3'>
-                                <h6><span className='font-weight-bolder'>PHONE</span> <br /><span className='font-weight-normal'>08101375376</span>  <span className='font-weight-normal'>09053403403</span></h6>
+                                <h6><span className='phone font-weight-bolder'>PHONE</span> <br /><span className='font-weight-normal'>08101375376</span>  <span className='font-weight-normal'>09053403403</span></h6>
                             </div>
                         </div>
                         
@@ -78,7 +78,7 @@ const ContactUs = () => {
                                 <img src={ Email } alt="" />
                             </div>
                             <div className='mt-4 ml-3'>
-                                <h6><span className='font-weight-bolder'>EMAIL ADDRESS</span> <br /><span className='font-weight-normal'>BYCAFRICA@gmail.com</span></h6>
+                                <h6><span className=' email font-weight-bolder'>EMAIL ADDRESS</span> <br /><span className='font-weight-normal'>BYCAFRICA@gmail.com</span></h6>
                             </div>
                         </div>
                         
@@ -140,7 +140,7 @@ const ContactUs = () => {
                         <div>
                            <img src={ Asian } alt="" style={{width: '217px'}} /> 
                            <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
-                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '10px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Boxer Cotton Underwear 3 In 1</p>
                            <p>₦1,900.00</p>
                            <div className="rating text-warning font-size-12">
                                 <span><i className=""><IoStar /></i></span>
@@ -156,7 +156,7 @@ const ContactUs = () => {
                         <div>
                            <img src={ Asian } alt="" style={{width: '217px'}} /> 
                            <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
-                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '10px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Boxer Cotton Underwear 3 In 1</p>
                            <p>₦1,900.00</p>
                            <div className="rating text-warning font-size-12">
                                 <span><i className=""><IoStar /></i></span>
@@ -172,7 +172,7 @@ const ContactUs = () => {
                         <div>
                            <img src={ Asian } alt="" style={{width: '217px'}} /> 
                            <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
-                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '10px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Boxer Cotton Underwear 3 In 1</p>
                            <p>₦1,900.00</p>
                            <div className="rating text-warning font-size-12">
                                 <span><i className=""><IoStar /></i></span>
@@ -188,7 +188,7 @@ const ContactUs = () => {
                         <div>
                            <img src={ Asian } alt="" style={{width: '217px'}} /> 
                            <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
-                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '10px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Boxer Cotton Underwear 3 In 1</p>
                            <p>₦1,900.00</p>
                            <div className="rating text-warning font-size-12">
                                 <span><i className=""><IoStar /></i></span>
@@ -204,7 +204,7 @@ const ContactUs = () => {
                         <div>
                            <img src={ Asian } alt="" style={{width: '217px'}} /> 
                            <h6 className="mt-3"><span className=" font-weight-bolder">MEN BOXERS</span><br /><span className="">BYC 1163</span></h6>
-                           <p className='' style={{fontFamily: 'inter', fontSize: '12px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Cotton Underwear 3 In 1</p>
+                           <p className='' style={{fontFamily: 'inter', fontSize: '10px', color: 'rgba(120, 120, 133, 1)'}}>Fashionable Men's Underwear Boxer Cotton Underwear 3 In 1</p>
                            <p>₦1,900.00</p>
                            <div className="rating text-warning font-size-12">
                                 <span><i className=""><IoStar /></i></span>

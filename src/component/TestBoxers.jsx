@@ -83,7 +83,7 @@ const TestBoxers = () => {
             <b>{item.heading}</b>
           </h6>
           <h6 className="font-weight-normal">{item.brand}</h6>
-          <p className='mt-3' style={{ color: '#787885', fontSize: '10px' }}>{item.paragraph}</p>
+          <p className='mt-3' style={{ color: '#787885', fontSize: '11px' }}>{item.paragraph}</p>
           <p>₦{item.price}</p>
           <div className='text-warning'>
             <span>

@@ -26,10 +26,10 @@ const Navbar = () => {
                       <Link className="nav-link mr-3" to="/camsole">Shop Products <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link mr-3" to="/">Blog</Link>
+                      <Link className="nav-link mr-3" to="/blog">Blog</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link mr-3" to="/">FAQ</Link>
+                      <Link className="nav-link mr-3" to="/macbook">FAQ</Link>
                     </li>
                   </ul>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
 
                   <ul className="navbar-nav">
                     <li className="nav-item mr-3">
-                      <Link to="/about" className="nav-link">About us</Link>
+                      <Link to="/about" className="nav-link">About Us</Link>
                     </li>
                     <li className="nav-item mr-3">
                       <Link to="/contact" className="nav-link">Contact</Link>

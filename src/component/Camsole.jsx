@@ -42,8 +42,27 @@ const Camsole = () => {
                             <div>
                                 <h6 className=' font-weight-bold' style={{ fontSize: '20px', marginTop: '40px'}}>Camsole</h6>
                             </div>
-                            <div className='d-flex'>
-                                <Link className='nav-link font-weight-bold' style={{ marginTop: '26px'}} to="/see all"><span className='' style={{ color: 'rgba(189, 58, 58, 1)', fontSize: '18px', marginTop: ''}}>See all</span></Link>   
+                            <div className=''>
+                                <fieldset style={{border: '1px solid rgba(189, 58, 58, 1)'}}>
+                                    <legend className='' style={{color: 'rgba(189, 58, 58, 1)',fontSize: '10px'}}>SORT BY</legend>
+                                    <label>Most sold</label> <ArrowDropDown />
+                                </fieldset>   
+                            </div>   
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <img src={ Divide } alt="" className='w-100 mb-3' />
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className='d-flex justify-content-between'>
+                            <div>
+                                <p className='products ml-' style={{color: 'rgba(112, 109, 109, 1)'}}>6 Product Found</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <Link to="/"><img src={ Menu } alt="" className='mb-2' /></Link>
+                                    <Link to="/"><img src={ Active } alt="" className='mb-2' /></Link>
+                                </span>
                             </div>
                         </div>
                     </div>
